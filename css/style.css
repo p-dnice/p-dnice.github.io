@@ -177,6 +177,9 @@ footer{
 	.head_img{
 		display: none;
 	}
+	.head_content{
+		padding: 30px 0 30px 0;
+	}
 	.head_information{
 		margin-top: 0; 
 		padding: 0;
