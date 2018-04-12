@@ -59,7 +59,7 @@ td{
 }
 
 #preview_site{
-	font-size: 20px;
+	font-size: 25px;
 	color: #ffffff;
 	text-align: center;
 	margin-top: 3.5%;
@@ -74,7 +74,7 @@ td{
 	background: #15a4fa;
 	border-radius: 10px;
 	color: #fff;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 #order_button:hover{
@@ -106,7 +106,7 @@ td{
 
 #description_text{
 	margin-top: 20px;
-	font-size: 20px;
+	font-size: 25px;
 	color: #a0a0a0;
 }
 
@@ -128,7 +128,7 @@ td{
 
 .quality_name{
 	margin: 26px 0 10px 0;
-	font-size: 22px;
+	font-size: 27px;
 	color: #2d3950;
 }
 
