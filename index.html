@@ -1,81 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<head>
+		  <!-- Важная техническая информация для браузера -->
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-  	<div id="wrapper">
-	    <div id="head">
-		    <div id="logo">
-		   		<a href="#"><img src="images/logo.png" /> <span>Название</span></a>
-		   	</div>
-	    </div>
-	    <div id="preview">
-	    	<div id="preview_content">
-	   			<p id="preview_content_name">Название</p>
-	  			<div id="preview_site">Какай-то текст описывающий сервис, вот так</div>
-	 			<a href="#contact" id="order_button"><span>Заказать</span></a>
-	   		</div>
-	   	</div>
-	   	<div id="site_content">
-	   		<div id="description">
-		   		<div class="size">
-		   			<div id="slogan">Создание сайта с улыбкой!</div>
-		   			<p id="description_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
-		   		</div>
-		   	</div>
-		   	<div id="quality">
-		   		<div class="size">
-		   			<ul id="quality_punkt">
-		   				<li class="quality_punkt" id="first_quality_punkt"><img src="images/quality.jpg" alt="" /> <div class="quality_name">Название качества</div></li>
-		   				<li class="quality_punkt"><img src="images/quality.jpg" alt="" /> <div class="quality_name">Название качества</div></li>
-		   				<li class="quality_punkt"><img src="images/quality.jpg" alt="" /> <div class="quality_name">Название качества</div></li>
-		   			</ul>
-		   		</div>
-		   	</div>
-	   	</div>
-	   	<div id="portfolio">
-	   		<div id="porfolio_size" class="size">
-	   			<p id="portfolio_name">Наши работы</p>
-	   			<table id="work" class="size">
-	   				<tr>
-	   					<td> <a href=""> <img src="images/work.jpg" alt="" /> </a> </td>
-	   					<td> <a href=""> <img src="images/work.jpg" alt="" /> </a> </td>
-	   					<td> <a href=""> <img src="images/work.jpg" alt="" /> </a> </td>
-	   				</tr>
-	   				<tr>
-	   					<td> <a href=""> <img src="images/work.jpg" alt="" /> </a> </td>
-	   					<td> <a href=""> <img src="images/work.jpg" alt="" /> </a> </td>
-	   					<td> <a href=""> <img src="images/work.jpg" alt="" /> </a> </td>
-	   				</tr>
-	   			</table>
-	   		</div>
-	   	</div>
-	   	<div id="contact">
-	   		<div class="size">
-	   			<p id="contact_name">Сделайте заказ прямо сейчас!</p>
-	   			<form action="#" name="order">
-	   				<input type="text" name="name" placeholder="Введите Ваше имя"  class="input" />
-	   				<input type="email" name="email" placeholder="Введите Ваш E-mail" class="input" />
-	   				<textarea placeholder="Ваше сообщение" class="input" id="text_ar" ></textarea>
-	   				<input type="submit" name="" value="Заказать" id="button" />
-	   			</form>
-	   		</div>
-	   	</div>
-	   	<div id="footer">
-	   		<div class="size" id="footer_size">
-	   			<div id="first_social" class="social">
-	   				<a href="#"><img src="images/facebook.png" alt="" /></a>
-	   			</div>
-	   			<div class="social">
-	   				<a href="#"><img src="images/vk.png" alt="" /></a>
-	   			</div>
-	   		</div>
-	   	</div>
-	</div>
-  </body>
+			<!-- Информация об Авторе и описание проекта -->
+			<meta name="description" content="">
+			<meta name="auyhor" content="">
+
+			<!-- Иконка, которая будет на вкладке в браузере -->
+			<link rel="icon" href="/favicon.ico">
+			<!-- Заголовок на вкладке в браузере -->
+			<title></title>
+
+			<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+
+			<!-- Подключаем наш файл со стилями, который находится в папке css-->
+			<link rel="stylesheet" href="css/style.css">
+			<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	</head>
+
+	<body>
+	 	<header>
+	 		<div class="container">
+	 			<div class="row head_content">
+	 				<div class="col-lg-7 head_img">
+	 					<img src="img/main-img.png" alt="Компьютер">
+	 				</div>
+	 				<div id="head_information" class="col-lg-5 head_information">
+	 					<p>Front-end разработчик</p>
+	 					<h1>Владимир Шевняков</h1>
+	 					<p id="p_inf">Верстка сайтов на HTML/CSS</p>
+	 					<a class="head_button" href="https://vk.me/true_main" target="_blank">Связаться</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</header>
+	 	<section>
+	 		<div class="container portfolio">
+	 			<h2 class="portfolio_head">Пртфолио</h2>
+	 			<p id="portfolio_work" class="portfolio_head">Мои работы</p>
+	 			<div class="row portfolio_content">
+	 				<div id="portfolio_post_1" class="col-lg-6 col-12">
+	 					<img class="portfolio_img" src="img/gasprom.jpg" alt="сайт газпрома">
+	 					<h2 class="portfolio_h">Название сайта, который был сделан</h2>
+	 					<p class="portfolio_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quasi sunt perspiciatis maiores magnam consectetur dolorum officia hic labore veniam quaerat a, totam tempore soluta exercitationem esse, rem quam necessitatibus?</p>
+	 					<a class="portfolio_a" href="#">Смотреть работу</a>
+	 				</div>
+	 				<div id="portfolio_post_2" class="col-lg-6 col-12">
+	 					<img class="portfolio_img" src="img/mir.jpg" alt="сайт поатежной системы">
+	 					<h2 class="portfolio_h">Название сайта, который был сделан</h2>
+	 					<p class="portfolio_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus magnam quod cum ratione voluptatum rem repudiandae, ab eum! Esse repellat neque inventore labore. Fugit maiores quas voluptates, laboriosam ratione ullam?</p>
+	 					<a class="portfolio_a" href="#">Смотреть работу</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</section>
+	 	<footer>
+	 		<div class="container">
+	 			<div class="row">
+	 				<div class="col-sm-4 my_name_block">
+	 					<h3 class="my_name">Шевняков Владимир</h3>
+	 					<p class="my_name_p">Верстка веб-сайтов</p>
+	 				</div>
+	 				<div class="col-sm-4 social">
+	 					<p class="social_p">Я в социальных сетях</p>
+	 					<a class="social_a" href="https:/vk.com/true_main" target="_blank"><img class="social_img" src="img/social/vk.png" alt="VK"></a>
+	 					<a class="social_a" href="https:/t.me/vladimir_shw" target="_blank"><img class="social_img" src="img/social/telegram.png" alt="Telegram"></a>
+	 				</div>
+	 				<div class="col-sm-4 callback">
+	 					<p class="callback_p">Напишите мне:</p>
+	 					<a href="https://vk.me/true_main" target="_blank" class="callback_button">Написать</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</footer>
+	</body>
 </html>
