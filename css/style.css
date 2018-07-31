@@ -66,6 +66,11 @@ section{
 	padding: 29px 0 41px;
 }
 
+.portfolio_img{
+	width: 458px;
+	height: 200px;
+}
+
 .portfolio_head{
 	text-align: center;
 }
